@@ -1,0 +1,12 @@
+download Jenkins
+java -jar jenkins.war --enable-future-java
+
+create new repo in git and push a java file.
+copy the repo path and paste in git and change the branch specifier to main.
+IN build trigger, select GitHub hook trigger.... option.
+In build step, select Execute Windows batch command.
+type:
+javac hello.java
+java hello
+
+then give Build Now.

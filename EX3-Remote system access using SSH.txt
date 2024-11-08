@@ -1,0 +1,6 @@
+ssh-keygen -t rsa -b 2048
+ssh-copy-id pglab@10.7.7.22 (here we have to give the other person system name and ip address)
+give yes
+give system password. (mostly ssn)
+ssh 'pglab@10.7.7.22'   -> this command will come in terminal itself. You can copy paste and execute.
+bash filename.sh   -> here the other person must save a file by some content inside and save it in extension of .sh
